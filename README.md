@@ -34,12 +34,12 @@ Offer API access for users addresses
 
 # Heroku API Endpoints
 
-| HTTP Method  | End Point       | Public Access      |  Action            |
-| :------------:|:---------------:| :---------------:|:---------------------:|
-| GET    | /api/v1/users | TRUE |  get users to login  |
-| POST    | /api/v1/login | TRUE |  Login a user from the above url  |
-| GET    | /api/v1/user | TRUE |  Fetch a logged-in user details.  |
-| PUT    | /api/v1/edit-address/<address_id>        |  TRUE |   Edit a user's address    |
+| HTTP Method  | End Point       | Public Access      |  Action            |  Authentication  |
+| :------------:|:---------------:| :---------------:|:---------------------:|:---------------------:|
+| GET    | /api/v1/users | TRUE |  get users to login  | No   |
+| POST    | /api/v1/login | TRUE |  Login a user from the above url  |  No  |
+| GET    | /api/v1/user | TRUE |  Fetch a logged-in user details.  |  Yes |
+| PUT    | /api/v1/edit-address/<address_id>        |  TRUE |   Edit a user's address    |  Yes |
 
 ## Built With
 Python 3.6, Flask Micro-framework
