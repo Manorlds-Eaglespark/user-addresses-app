@@ -56,5 +56,5 @@ Follow this [link](https://address-app-256.herokuapp.com/)
 This app has a UI mock in react - redux. Find it [here](https://github.com/Manorlds-Eaglespark/User-Address-App-FrontEnd)
 
 ## AUTHOR
-Anorld Mukone - [Github profile here](https://github.com/Manorlds-Eaglespark)
+[Anorld Mukone](https://github.com/Manorlds-Eaglespark)
 
