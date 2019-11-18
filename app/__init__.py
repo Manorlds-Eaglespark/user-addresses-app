@@ -21,6 +21,12 @@ def create_app(config_name):
         response = {"status": 200,
             "message": "Welcome To User Address API"}
         return make_response(jsonify(response)), 200
+    
+    @app.route('/test_response', methods=['GET'])
+    def test_500():
+        response = {"status": 500,
+            "message": "Testing a 500 response from the server"}
+        return make_response(jsonify(response)), 500
 
     @app.route('/api/v1/users', methods=['GET'])
     def fetch_all_users():
